@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f90bfc17a4484ce4af100696b71b124f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f90bfc17a4484ce4af100696b71b124f" ></div>
+        
+</body>
+<script>    
+    
+            var map_f90bfc17a4484ce4af100696b71b124f = L.map(
+                "map_f90bfc17a4484ce4af100696b71b124f",
+                {
+                    center: [45.9442858, 25.0094303],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_de33f7c1b7b444519d52aa301838e67f = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var feature_group_b747b52c856e44e6b56704a732b01216 = L.featureGroup(
+                {}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var feature_group_be51d3481b224314be3f633f7f053ca6 = L.featureGroup(
+                {}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var circle_marker_e496b29e5a9346d080cfbd5737f4dfa2 = L.circleMarker(
+                [46.51279201316022, 22.78296296763276],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_be51d3481b224314be3f633f7f053ca6);
+        
+    
+        var popup_307ff4fe3ef44d66945cac67a8cd3320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99a70b2218bb4c5381de56c0cad463cc = $(`<div id="html_99a70b2218bb4c5381de56c0cad463cc" style="width: 100.0%; height: 100.0%;"> Izbucul Tauzului, Rezervatie</div>`)[0];
+            popup_307ff4fe3ef44d66945cac67a8cd3320.setContent(html_99a70b2218bb4c5381de56c0cad463cc);
+        
+
+        circle_marker_e496b29e5a9346d080cfbd5737f4dfa2.bindPopup(popup_307ff4fe3ef44d66945cac67a8cd3320)
+        ;
+
+        
+    
+    
+            var circle_marker_cbff2be15a474c13a1931b502703db1f = L.circleMarker(
+                [45.98735802547914, 23.591609428990463],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_be51d3481b224314be3f633f7f053ca6);
+        
+    
+        var popup_d760e52230c441db8d40777be75b056a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a2ff79b46e24175b46553e40c703901 = $(`<div id="html_8a2ff79b46e24175b46553e40c703901" style="width: 100.0%; height: 100.0%;"> Rapa Rosie, Rezervatie</div>`)[0];
+            popup_d760e52230c441db8d40777be75b056a.setContent(html_8a2ff79b46e24175b46553e40c703901);
+        
+
+        circle_marker_cbff2be15a474c13a1931b502703db1f.bindPopup(popup_d760e52230c441db8d40777be75b056a)
+        ;
+
+        
+    
+    
+            var circle_marker_057ecb1c314446d4a8e08adc8690133c = L.circleMarker(
+                [46.37959243847204, 23.58240610253075],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_be51d3481b224314be3f633f7f053ca6);
+        
+    
+        var popup_9e7ad5e43b114a20a99c5ab318067c96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79b9d264884346d9bb6c520d958a5ca2 = $(`<div id="html_79b9d264884346d9bb6c520d958a5ca2" style="width: 100.0%; height: 100.0%;"> Cheile Valisoarei, Rezervatie</div>`)[0];
+            popup_9e7ad5e43b114a20a99c5ab318067c96.setContent(html_79b9d264884346d9bb6c520d958a5ca2);
+        
+
+        circle_marker_057ecb1c314446d4a8e08adc8690133c.bindPopup(popup_9e7ad5e43b114a20a99c5ab318067c96)
+        ;
+
+        
+    
+    
+            var feature_group_38ce76e453ff40df8f2d06085713934d = L.featureGroup(
+                {}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var circle_marker_f693768f0445478c8bf4c717f9421e53 = L.circleMarker(
+                [46.33137378899626, 23.203690734053687],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_38ce76e453ff40df8f2d06085713934d);
+        
+    
+        var popup_2abc4fb987614899818e0296331445a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed5004250ef04ea28d553c5112617213 = $(`<div id="html_ed5004250ef04ea28d553c5112617213" style="width: 100.0%; height: 100.0%;"> Satul Geamana, Apa</div>`)[0];
+            popup_2abc4fb987614899818e0296331445a9.setContent(html_ed5004250ef04ea28d553c5112617213);
+        
+
+        circle_marker_f693768f0445478c8bf4c717f9421e53.bindPopup(popup_2abc4fb987614899818e0296331445a9)
+        ;
+
+        
+    
+    
+            var circle_marker_e608f6e232e74da6b4a06832109fe4ce = L.circleMarker(
+                [45.5632655771244, 23.61366094208173],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_38ce76e453ff40df8f2d06085713934d);
+        
+    
+        var popup_dbac493cf8204ad2b7a80ff4acd025f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f05a7d554da4f8aa8518a86e779a06f = $(`<div id="html_8f05a7d554da4f8aa8518a86e779a06f" style="width: 100.0%; height: 100.0%;"> Lacul Oasa, Apa</div>`)[0];
+            popup_dbac493cf8204ad2b7a80ff4acd025f5.setContent(html_8f05a7d554da4f8aa8518a86e779a06f);
+        
+
+        circle_marker_e608f6e232e74da6b4a06832109fe4ce.bindPopup(popup_dbac493cf8204ad2b7a80ff4acd025f5)
+        ;
+
+        
+    
+    
+            var circle_marker_bfbf33b19a254c16ae48e1c1ef1b106e = L.circleMarker(
+                [46.40675753521549, 23.461239359139658],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_38ce76e453ff40df8f2d06085713934d);
+        
+    
+        var popup_203587d9d2f141d8831ad65639b0ca80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a65cac3e5614b8c9dada5246aaf9c2f = $(`<div id="html_0a65cac3e5614b8c9dada5246aaf9c2f" style="width: 100.0%; height: 100.0%;"> Cascada Sipote, Apa</div>`)[0];
+            popup_203587d9d2f141d8831ad65639b0ca80.setContent(html_0a65cac3e5614b8c9dada5246aaf9c2f);
+        
+
+        circle_marker_bfbf33b19a254c16ae48e1c1ef1b106e.bindPopup(popup_203587d9d2f141d8831ad65639b0ca80)
+        ;
+
+        
+    
+    
+            var circle_marker_133c4d1898624d188728955041cfb5bc = L.circleMarker(
+                [46.36150475999141, 22.877965595918702],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_38ce76e453ff40df8f2d06085713934d);
+        
+    
+        var popup_adb3acd186d841fe81620c1499d28088 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c8e490de0b448899aee8d57923aef4 = $(`<div id="html_77c8e490de0b448899aee8d57923aef4" style="width: 100.0%; height: 100.0%;"> Cascada Pisoaia, Apa</div>`)[0];
+            popup_adb3acd186d841fe81620c1499d28088.setContent(html_77c8e490de0b448899aee8d57923aef4);
+        
+
+        circle_marker_133c4d1898624d188728955041cfb5bc.bindPopup(popup_adb3acd186d841fe81620c1499d28088)
+        ;
+
+        
+    
+    
+            var circle_marker_60e043bdf5c346b6a9f22309f268dad0 = L.circleMarker(
+                [46.48059579741879, 22.69236037818329],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_38ce76e453ff40df8f2d06085713934d);
+        
+    
+        var popup_cb2efd1ab4cc4eed8e6a8bb238772b8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6df4cab3e214ad49d3dbf6ded98ce32 = $(`<div id="html_b6df4cab3e214ad49d3dbf6ded98ce32" style="width: 100.0%; height: 100.0%;"> Cascada Varciorog, Apa</div>`)[0];
+            popup_cb2efd1ab4cc4eed8e6a8bb238772b8f.setContent(html_b6df4cab3e214ad49d3dbf6ded98ce32);
+        
+
+        circle_marker_60e043bdf5c346b6a9f22309f268dad0.bindPopup(popup_cb2efd1ab4cc4eed8e6a8bb238772b8f)
+        ;
+
+        
+    
+    
+            var feature_group_c24573cdf5ad403dbc1f96b475cac3f6 = L.featureGroup(
+                {}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var feature_group_ff2ef81257fc4e7e846dc11a233b92c7 = L.featureGroup(
+                {}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var circle_marker_4bd95e61a76340c791dea2c053b1c481 = L.circleMarker(
+                [46.39339977352324, 23.867966325301094],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff2ef81257fc4e7e846dc11a233b92c7);
+        
+    
+        var popup_6ea0210dc0074cb2aba0f8c2f8c1efaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da87c259a9de480b91b9dcd679dbcc91 = $(`<div id="html_da87c259a9de480b91b9dcd679dbcc91" style="width: 100.0%; height: 100.0%;"> Castelul Teleki, Castel</div>`)[0];
+            popup_6ea0210dc0074cb2aba0f8c2f8c1efaa.setContent(html_da87c259a9de480b91b9dcd679dbcc91);
+        
+
+        circle_marker_4bd95e61a76340c791dea2c053b1c481.bindPopup(popup_6ea0210dc0074cb2aba0f8c2f8c1efaa)
+        ;
+
+        
+    
+    
+            var circle_marker_2488bd3a5d494cb3b046ed9690ff0745 = L.circleMarker(
+                [46.25581271966034, 24.17481924324746],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ff2ef81257fc4e7e846dc11a233b92c7);
+        
+    
+        var popup_3abaf67f7c744a84b63589552a2dfb73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf10f7a1897641439e502aa51b928903 = $(`<div id="html_bf10f7a1897641439e502aa51b928903" style="width: 100.0%; height: 100.0%;"> Castelul Bethlen-Haller, Castel</div>`)[0];
+            popup_3abaf67f7c744a84b63589552a2dfb73.setContent(html_bf10f7a1897641439e502aa51b928903);
+        
+
+        circle_marker_2488bd3a5d494cb3b046ed9690ff0745.bindPopup(popup_3abaf67f7c744a84b63589552a2dfb73)
+        ;
+
+        
+    
+    
+            var feature_group_cdcaca2032bd4703bd83a1b0090c34d9 = L.featureGroup(
+                {}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var circle_marker_31f62416e8b14607bc055b316d1e9b74 = L.circleMarker(
+                [46.06702181230917, 23.57618812844636],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_cdcaca2032bd4703bd83a1b0090c34d9);
+        
+    
+        var popup_352d5595d7fe45fb83f132727552919b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1710b8395494db0acb096fcc118c596 = $(`<div id="html_f1710b8395494db0acb096fcc118c596" style="width: 100.0%; height: 100.0%;"> Obeliscul lui Horea, Closca si Crisan, Atractie istorica</div>`)[0];
+            popup_352d5595d7fe45fb83f132727552919b.setContent(html_f1710b8395494db0acb096fcc118c596);
+        
+
+        circle_marker_31f62416e8b14607bc055b316d1e9b74.bindPopup(popup_352d5595d7fe45fb83f132727552919b)
+        ;
+
+        
+    
+    
+            var circle_marker_2489dfba8de448e3aa1e3edee59ca8e1 = L.circleMarker(
+                [46.0683451710368, 23.57144828056896],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_cdcaca2032bd4703bd83a1b0090c34d9);
+        
+    
+        var popup_6ca5417204c246fa8c4b80cb5fa4c59d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_159eb12a56c5439eb4ae828ed9a85a88 = $(`<div id="html_159eb12a56c5439eb4ae828ed9a85a88" style="width: 100.0%; height: 100.0%;"> Muzeul National al Unirii, Atractie istorica</div>`)[0];
+            popup_6ca5417204c246fa8c4b80cb5fa4c59d.setContent(html_159eb12a56c5439eb4ae828ed9a85a88);
+        
+
+        circle_marker_2489dfba8de448e3aa1e3edee59ca8e1.bindPopup(popup_6ca5417204c246fa8c4b80cb5fa4c59d)
+        ;
+
+        
+    
+    
+            var circle_marker_d4c24da4db2a48f6aa4a2b534c3a0255 = L.circleMarker(
+                [46.06883598751071, 23.57214669591161],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_cdcaca2032bd4703bd83a1b0090c34d9);
+        
+    
+        var popup_12a6f79744aa445480981edb90528cde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51a93c45496b47da9f0e32d2b560bfb8 = $(`<div id="html_51a93c45496b47da9f0e32d2b560bfb8" style="width: 100.0%; height: 100.0%;"> Cetatea Alba Carolina, Atractie istorica</div>`)[0];
+            popup_12a6f79744aa445480981edb90528cde.setContent(html_51a93c45496b47da9f0e32d2b560bfb8);
+        
+
+        circle_marker_d4c24da4db2a48f6aa4a2b534c3a0255.bindPopup(popup_12a6f79744aa445480981edb90528cde)
+        ;
+
+        
+    
+    
+            var circle_marker_b108de0fa827470c8b9fe65eeb7403d4 = L.circleMarker(
+                [46.310075354433415, 23.717696655984422],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_cdcaca2032bd4703bd83a1b0090c34d9);
+        
+    
+        var popup_9670eb1c4d404d28b7981d34066c9d05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6199ebe729c047a1ba6c1090dd84e515 = $(`<div id="html_6199ebe729c047a1ba6c1090dd84e515" style="width: 100.0%; height: 100.0%;"> Cetatea Aiud, Atractie istorica</div>`)[0];
+            popup_9670eb1c4d404d28b7981d34066c9d05.setContent(html_6199ebe729c047a1ba6c1090dd84e515);
+        
+
+        circle_marker_b108de0fa827470c8b9fe65eeb7403d4.bindPopup(popup_9670eb1c4d404d28b7981d34066c9d05)
+        ;
+
+        
+    
+    
+            var feature_group_011e3bb85d1e4b28b400557539fbe597 = L.featureGroup(
+                {}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var circle_marker_01ee0d81b87f4b408c77d406ac64dfa5 = L.circleMarker(
+                [46.06861448282479, 23.56959965597862],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "grey", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_011e3bb85d1e4b28b400557539fbe597);
+        
+    
+        var popup_580f30baf9c343b69b156cc23737f1e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d5701bcf6f24e798a21f9bf1bc00d2d = $(`<div id="html_2d5701bcf6f24e798a21f9bf1bc00d2d" style="width: 100.0%; height: 100.0%;"> Catedrala Incoronarii, Catedrala</div>`)[0];
+            popup_580f30baf9c343b69b156cc23737f1e4.setContent(html_2d5701bcf6f24e798a21f9bf1bc00d2d);
+        
+
+        circle_marker_01ee0d81b87f4b408c77d406ac64dfa5.bindPopup(popup_580f30baf9c343b69b156cc23737f1e4)
+        ;
+
+        
+    
+    
+            var circle_marker_691fd4a74dcb4c4bbe82df6f702306ed = L.circleMarker(
+                [45.57268182238305, 23.611285913092093],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "grey", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_011e3bb85d1e4b28b400557539fbe597);
+        
+    
+        var popup_5abf7559b8d64096b3b92acf836be572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e7e9562976e4992a37b7e7df3650aa8 = $(`<div id="html_3e7e9562976e4992a37b7e7df3650aa8" style="width: 100.0%; height: 100.0%;"> Manastirea Oasa, Catedrala</div>`)[0];
+            popup_5abf7559b8d64096b3b92acf836be572.setContent(html_3e7e9562976e4992a37b7e7df3650aa8);
+        
+
+        circle_marker_691fd4a74dcb4c4bbe82df6f702306ed.bindPopup(popup_5abf7559b8d64096b3b92acf836be572)
+        ;
+
+        
+    
+    
+            var feature_group_9577674f21374037a9b25481e0b265b1 = L.featureGroup(
+                {}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+    
+            var circle_marker_14e54aa75d4c4fab9aeda3024065ba43 = L.circleMarker(
+                [46.588092380393896, 23.78735806910268],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9577674f21374037a9b25481e0b265b1);
+        
+    
+        var popup_4161fa7b25974a44b66f3eef5e7c12f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b942ddab8505462cb227c28af9cb7c92 = $(`<div id="html_b942ddab8505462cb227c28af9cb7c92" style="width: 100.0%; height: 100.0%;"> Salina Turda, Altele</div>`)[0];
+            popup_4161fa7b25974a44b66f3eef5e7c12f8.setContent(html_b942ddab8505462cb227c28af9cb7c92);
+        
+
+        circle_marker_14e54aa75d4c4fab9aeda3024065ba43.bindPopup(popup_4161fa7b25974a44b66f3eef5e7c12f8)
+        ;
+
+        
+    
+    
+            var circle_marker_3f5050806b2345aca8112ca61df93947 = L.circleMarker(
+                [45.95679715259777, 23.57249830702629],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9577674f21374037a9b25481e0b265b1);
+        
+    
+        var popup_8d9ae362c80f44a4b31ad2a0086955d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef0587641526437bb3ba849cecd67655 = $(`<div id="html_ef0587641526437bb3ba849cecd67655" style="width: 100.0%; height: 100.0%;"> Turnul Studentului, Altele</div>`)[0];
+            popup_8d9ae362c80f44a4b31ad2a0086955d2.setContent(html_ef0587641526437bb3ba849cecd67655);
+        
+
+        circle_marker_3f5050806b2345aca8112ca61df93947.bindPopup(popup_8d9ae362c80f44a4b31ad2a0086955d2)
+        ;
+
+        
+    
+    
+            var circle_marker_7824b3f2cc594cc98cc80c97d59f88b8 = L.circleMarker(
+                [46.06870959525526, 23.58148084008996],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9577674f21374037a9b25481e0b265b1);
+        
+    
+        var popup_19f2d5d683184566a1091c9536e5867e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fc1b72faa2443e7932b21122d67aaef = $(`<div id="html_6fc1b72faa2443e7932b21122d67aaef" style="width: 100.0%; height: 100.0%;"> Teatrul de papusi Prichindel, Altele</div>`)[0];
+            popup_19f2d5d683184566a1091c9536e5867e.setContent(html_6fc1b72faa2443e7932b21122d67aaef);
+        
+
+        circle_marker_7824b3f2cc594cc98cc80c97d59f88b8.bindPopup(popup_19f2d5d683184566a1091c9536e5867e)
+        ;
+
+        
+    
+    
+            var circle_marker_b4248ee9e817472a883f25b5aeabc0d4 = L.circleMarker(
+                [46.07043103378478, 23.570838146184656],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9577674f21374037a9b25481e0b265b1);
+        
+    
+        var popup_3f187641fee64e8aa0369005b7472b2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1e4e8261ebf4055b8904e92da27505a = $(`<div id="html_d1e4e8261ebf4055b8904e92da27505a" style="width: 100.0%; height: 100.0%;"> Biblioteca Batthyaneum, Altele</div>`)[0];
+            popup_3f187641fee64e8aa0369005b7472b2a.setContent(html_d1e4e8261ebf4055b8904e92da27505a);
+        
+
+        circle_marker_b4248ee9e817472a883f25b5aeabc0d4.bindPopup(popup_3f187641fee64e8aa0369005b7472b2a)
+        ;
+
+        
+    
+    
+            var circle_marker_9668fa94ea714e10870f543792a00fef = L.circleMarker(
+                [45.58008077331663, 23.566865881103343],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9577674f21374037a9b25481e0b265b1);
+        
+    
+        var popup_9dd499e84fbd48e5bb40e61232e7dd7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61838c69f3204060b697d5d4858fb1b6 = $(`<div id="html_61838c69f3204060b697d5d4858fb1b6" style="width: 100.0%; height: 100.0%;"> Luncile Prigoanei, Altele</div>`)[0];
+            popup_9dd499e84fbd48e5bb40e61232e7dd7d.setContent(html_61838c69f3204060b697d5d4858fb1b6);
+        
+
+        circle_marker_9668fa94ea714e10870f543792a00fef.bindPopup(popup_9dd499e84fbd48e5bb40e61232e7dd7d)
+        ;
+
+        
+    
+    
+            var circle_marker_65bc13158774467c8661c2ba0bc888b0 = L.circleMarker(
+                [46.5193351312851, 22.77901093085295],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_9577674f21374037a9b25481e0b265b1);
+        
+    
+        var popup_677678a9d6634fec8306b432ad22a834 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b1fb0a3f7a74fa396525e9cb256a0c9 = $(`<div id="html_7b1fb0a3f7a74fa396525e9cb256a0c9" style="width: 100.0%; height: 100.0%;"> Pestera Hodobana, Altele</div>`)[0];
+            popup_677678a9d6634fec8306b432ad22a834.setContent(html_7b1fb0a3f7a74fa396525e9cb256a0c9);
+        
+
+        circle_marker_65bc13158774467c8661c2ba0bc888b0.bindPopup(popup_677678a9d6634fec8306b432ad22a834)
+        ;
+
+        
+    
+    
+            var layer_control_da5310b91d764e66b74fd3b4cb9f0e55 = {
+                base_layers : {
+                    "stamenterrain" : tile_layer_de33f7c1b7b444519d52aa301838e67f,
+                },
+                overlays :  {
+                    "Munti" : feature_group_b747b52c856e44e6b56704a732b01216,
+                    "Rezervatii" : feature_group_be51d3481b224314be3f633f7f053ca6,
+                    "Ape" : feature_group_38ce76e453ff40df8f2d06085713934d,
+                    "Vegetatie" : feature_group_c24573cdf5ad403dbc1f96b475cac3f6,
+                    "Castele" : feature_group_ff2ef81257fc4e7e846dc11a233b92c7,
+                    "Atractii istorice" : feature_group_cdcaca2032bd4703bd83a1b0090c34d9,
+                    "Catedrale" : feature_group_011e3bb85d1e4b28b400557539fbe597,
+                    "Altele" : feature_group_9577674f21374037a9b25481e0b265b1,
+                },
+            };
+            L.control.layers(
+                layer_control_da5310b91d764e66b74fd3b4cb9f0e55.base_layers,
+                layer_control_da5310b91d764e66b74fd3b4cb9f0e55.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_f90bfc17a4484ce4af100696b71b124f);
+        
+</script>
